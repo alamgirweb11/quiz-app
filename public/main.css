@@ -107,7 +107,7 @@ body {
     text-align: center;
 }
 
-.fade-enter {
+.fade-enter-from {
     opacity: 0;
 }
 
