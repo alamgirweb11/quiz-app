@@ -12,7 +12,7 @@
             <div class="answers">
                 <div class="answer" v-for="answer in question.answers"
                  :key="answer.text"
-                 @click.prevent="selectAnswer(is_correct)"
+                 @click.prevent="selectAnswer(answer.is_correct)"
                  >{{ answer.text }}</div>
             </div>
         </div>
